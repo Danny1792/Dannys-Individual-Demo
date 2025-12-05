@@ -48,7 +48,7 @@ Sending data too frequently from Python to Arduino can overflow the serial buffe
 5. Dataset Diversity / Bias
 Limited angles, lighting conditions, or facial types reduce the AI model's ability to generalize to new faces.
 
-# Diagram
+# Diagram:
 
  Webcam Input
       |
@@ -66,6 +66,7 @@ Indicator LED / screen LED
 
 # Demo Video:
 
-# License
+
+# License:
 
 MIT License
