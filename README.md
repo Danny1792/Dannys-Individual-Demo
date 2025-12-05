@@ -33,17 +33,17 @@ By the end of training, the model wasn’t just matching exact images—it was l
 
 # Hidden / Easily Overlooked Details
 
-# 1. Lighting and Webcam Angle
-# Consistent lighting and camera positioning are crucial for reliable emotion recognition in Teachable Machine.
+1. Lighting and Webcam Angle
+Consistent lighting and camera positioning are crucial for reliable emotion recognition in Teachable Machine.
 
-# 2. Button Debouncing
-# Physical push buttons may trigger multiple signals without software debouncing, causing unexpected Arduino behavior.
+2. Button Debouncing
+Physical push buttons may trigger multiple signals without software debouncing, causing unexpected Arduino behavior.
 
-# 3. USB Power Limits
-# High current draw from connected components (LEDs, sensors) can cause instability if the USB port cannot supply enough power.
+3. USB Power Limits
+High current draw from connected components (LEDs, sensors) can cause instability if the USB port cannot supply enough power.
 
-# 4. Serial Communication Timing
-# Sending data too frequently from Python to Arduino can overflow the serial buffer, resulting in missed or delayed signals.
+4. Serial Communication Timing
+Sending data too frequently from Python to Arduino can overflow the serial buffer, resulting in missed or delayed signals.
 
-# 5. Dataset Diversity / Bias
-# Limited angles, lighting conditions, or facial types reduce the AI model's ability to generalize to new faces.
+5. Dataset Diversity / Bias
+Limited angles, lighting conditions, or facial types reduce the AI model's ability to generalize to new faces.
