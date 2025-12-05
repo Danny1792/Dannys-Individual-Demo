@@ -62,5 +62,6 @@ Python Script
 Arduino Mega 2560
       |
       v
-Indicator LED / Fan LED
+Indicator LED / screen LED
+
 
