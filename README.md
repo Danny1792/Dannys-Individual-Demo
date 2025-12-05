@@ -1,5 +1,5 @@
 # Face-Recognition-Camera
-Overview
+Overview-
 
 For this project, we used Google’s Teachable Machine to develop a custom AI model capable of identifying basic facial emotions. The process began by activating the webcam and capturing a large set of images of ourselves displaying a range of expressions, including happy, sad, angry, and neutral. Each expression was organized into its own category so the model could clearly distinguish between different emotional states.
 
@@ -9,7 +9,7 @@ By the end of training, the model wasn’t just matching exact images—it was l
 
 
 
-# Hardware Requirements
+# Hardware Requirements:
 
 
 | Component                  | Specification / Details | Notes                          |
@@ -22,7 +22,7 @@ By the end of training, the model wasn’t just matching exact images—it was l
 | Jumper Wires              | Male-to-male             | For wiring connections          |
 
 
-# Software Requirements
+# Software Requirements:
 
 | Software / Tool          | Version                 | Purpose / Description                               |
 |--------------------------|-------------------------|------------------------------------------------------|
@@ -31,7 +31,7 @@ By the end of training, the model wasn’t just matching exact images—it was l
 | Google Teachable Machine | Latest Version          | Trains the facial-emotion recognition AI model       |
 | Visual Studio            | Latest Version          | Development environment for coding and debugging     |
 
-# Hidden / Easily Overlooked Details
+# Hidden / Easily Overlooked Details:
 
 1. Lighting and Webcam Angle
 Consistent lighting and camera positioning are crucial for reliable emotion recognition in Teachable Machine.
