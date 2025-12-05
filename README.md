@@ -30,3 +30,17 @@ By the end of training, the model wasn’t just matching exact images—it was l
 | Arduino IDE              | Latest Version          | Uploads code and manages the Mega 2560 board         |
 | Google Teachable Machine | Latest Version          | Trains the facial-emotion recognition AI model       |
 | Visual Studio            | Latest Version          | Development environment for coding and debugging     |
+
+
+# Key Hidden / Easily Overlooked Details
+
+Lighting and Webcam Angle
+Consistent lighting and positioning are crucial for Teachable Machine to recognize emotions reliably.
+Button Debouncing
+Without debouncing, push buttons may trigger multiple signals unintentionally, causing unexpected behavior.
+USB Power Limits
+High current draw from Arduino components can cause instability if the USB port cannot supply enough power.
+Serial Communication Timing
+Sending data too quickly from Python to Arduino can overflow the Arduino’s serial buffer, leading to missed or delayed commands.
+Dataset Diversity / Bias
+A dataset with limited angles, lighting, or facial types reduces the AI model’s ability to generalize to new faces.
